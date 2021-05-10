@@ -12,7 +12,7 @@ body.loading {
       align-items: center;
       justify-content: center;
       &.image-1 {
-        width: 400px;
+        width: 20vw;
         left: 16%;
         bottom: 14%;
         @media (max-width: $layout-breakpoint-xsmall) {
@@ -21,7 +21,7 @@ body.loading {
         }
       }
       &.image-3 {
-        width: 300px;
+        width: 30vw;
         right: 12%;
         top: 8%;
         @media (max-width: $layout-breakpoint-xsmall) {
@@ -49,9 +49,16 @@ body.loading {
         }
       }
       img {
-        width: 100%;
+        width: 20vw;
         object-fit: fill;
       }
     }
   }
+}
+
+.transition-image {
+  width: 100vw;
+  height: 80vh;
+  left: 0%;
+  top: 0%;
 }

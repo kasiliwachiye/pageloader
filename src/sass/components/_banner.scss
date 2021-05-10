@@ -11,6 +11,7 @@
       }
     }
     &.center {
+      margin-bottom: 70px;
       justify-content: center;
       text-align: center;
       .row-letter {
@@ -22,7 +23,7 @@
     }
     .row-title,
     .row-letter {
-      font-size: 28rem;
+      font-size: 15rem;
       font-weight: 500;
       position: relative;
       letter-spacing: -0.8rem;
@@ -57,8 +58,8 @@
       }
     }
     .scroll {
-      height: 160px;
-      width: 160px;
+      height: 80px;
+      width: 80px;
       border-radius: 100%;
       background: $white;
       position: absolute;
@@ -74,7 +75,7 @@
         display: none;
       }
       span {
-        font-size: 18px;
+        font-size: 1em;
         font-weight: 600;
         margin: 4px 0;
         @media (max-width: $layout-breakpoint-xsmall) {

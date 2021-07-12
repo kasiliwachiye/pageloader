@@ -14,7 +14,7 @@
     "web-vitals": "^1.0.1"
   },
     "engines": {
-      "node": "14.x",
+      "node": "14.15.1",
       "npm": "6.x",
       "yarn": "1.x"
   },
